@@ -1,0 +1,492 @@
+:root{
+    --color-Amarillo: rgb(245, 203, 0);
+    --color-Gris: rgb(230, 230, 230);
+    --color-Negro:rgb(0, 0, 0);
+    --color-Blanco: rgb(255, 255, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.PaginaPrincipal{
+    background-color: var(--color-Amarillo) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.PaginaPrincipal img{
+    padding-left: 40px;
+}
+
+.ContainerCajas{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: 27%;
+    gap: 40px;
+}
+
+
+/*  Pagina 2 */
+
+
+.ContainerDos{
+    display: flex;
+    padding: 60px;
+    padding-left: 70px;
+    gap: 100px;
+}
+
+.ContainerDos img{
+    width: 600px;
+}
+.CajasDos h2{
+    font-size: 70px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    line-height: 90%;
+    width: 250px;
+    margin-top: 70px;
+}
+
+.CajasDos p{
+    margin-top: 25px; 
+    width: 400px;
+}
+
+.buttonUno{
+    border: none;
+    background-color: var(--color-Amarillo);
+    padding: 9px;
+    width: 110px;
+    margin-top: 25px;
+}
+
+
+/* Pagina 3 */
+
+
+.ContainerTres {
+    background-color: var(--color-Amarillo);  
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+  }
+  
+.contenedor-happiness {
+    background-color: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.15);
+    max-width: 1235px;
+    width: 100%;
+    margin-top: -130px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .texto-happiness {
+    max-width: 240px;
+  }
+  
+  .texto-happiness h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    color: var(--color-Amarillo);
+    line-height: 90%;
+    margin-bottom: 16px;
+  }
+  
+  .texto-happiness p {
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 16px;
+  }
+  
+  .leer-mas {
+    background-color: transparent;
+    border: none;
+    color: var(--color-Negro);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .graficas-happiness {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .graficas-happiness img {
+    width: 170px;
+    height: auto;
+  }
+
+
+  /* Pagina 4 */
+
+  .ContainerCuatro{
+    background-color: var(--color-Amarillo);
+    display: flex;
+    padding: 72px;
+    gap: 10px;
+  }
+
+  .CajasCuatro{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .ContainerCuatro h2{
+    width: 380px;
+    font-size: 70px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    line-height: 90%;
+  }
+
+  .ContainerCuatro p{
+    width: 330px;
+    margin-top: 15px;
+  }
+
+  .CajasCuatro img{
+    width: 920px; 
+    background-size: cover;
+    padding-left: 20px;
+    margin-top: 115px;
+    height: 530px;
+  }
+
+  .buttonTres{
+    border: none;
+    background-color: var(--color-Negro);
+    color: var(--color-Blanco);
+    padding: 7px;
+    width: 100px;
+    margin-top: 30px;
+  }
+
+
+  /* Pagina 5 */
+
+  .ContainerCinco{
+    padding: 70px;
+    
+  }
+  .CajasSeis h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px; 
+    color: var(--color-Amarillo);
+    margin-top: 30px;
+  }
+
+  .CajasSeis p{
+    width: 350px;
+  }
+
+  .CajasSiete{
+    display: flex;
+    gap: 60px;
+  }
+
+  .CajasSiete img{
+    width: 690px;
+    height: 650px;
+  }
+
+  .CajasOcho img{
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+    padding-left: 145px;
+    background-size: cover;
+    margin-top: 20px;
+  }
+  .buttonCuatro{
+    border: none;
+    background-color: var(--color-Negro);
+    color: var(--color-Blanco);
+    padding: 7px;
+    margin-top: 30px;
+    width: 100px;
+  }
+
+  .Container5{
+    width: 92%;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.15);
+    height: 650px;
+  }
+
+  .ContainerSeis{
+    padding: 40px;
+    background-color: var(--color-Negro);
+    color: var(--color-Blanco);
+  }
+
+  .ContainerSeis h2{
+    font-family: "Bebas Neue", sans-serif;
+    color: var(--color-Amarillo);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ContainerSeis p{
+    width: 85%;
+    padding-left: 250px;
+    margin-top: 10px;
+  }
+  .CajasNueve{
+    text-align: center;
+
+  }
+  .CajasNuevee img{
+  width: 1200px;
+  padding-left: 138px;
+  background-size: cover;
+  margin-top: 20px;
+  height: 530px;
+  }
+
+  .buttonCinco{
+    margin-top: 20px;
+    border: none;
+    background-color: var(--color-Amarillo);
+    color: var(--color-Negro);
+    padding: 7px;
+    width: 100px;
+  }
+
+  .ContainerSiete{
+    display: flex;
+    padding: 70px;
+    gap: 60px;
+  }
+
+  .ContainerSiete img{
+    width: 743px;
+  }
+
+  .Cajas10{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Cajas11{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .Cajas11 h2{
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+  .Cajas11{
+    width: 450px;
+  }
+
+  .buttonSeis{
+    border: none;
+    padding: 7px;
+    width: 100px;
+    margin-top: 30px;
+    background-color: var(--color-Amarillo);
+  }
+
+  .ContainerOcho {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 120px;
+    gap: 330px;
+    background-color: var(--color-Gris);
+  }
+
+  .ContainerOcho img{
+    width: 600px;
+  }
+
+  .Cajas13 h2{
+    margin-top: 140px;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 90%;
+    font-size: 60px;
+    width: 350px;
+  }
+
+  .Cajas13 p{
+    width: 400px;
+  }
+
+  .buttonSiete{
+    border: none;
+    padding: 7px;
+    width: 100px;
+    background-color: var(--color-Amarillo);
+    margin-top: 30px;
+  }
+
+  .ContainerNueve{
+    display: flex;
+    padding: 88px;
+    gap: 60px;
+  }
+
+  .ContainerNueve img{
+    width: 650px;
+    height: 560px;
+    background-size: cover;
+  }
+
+  .Cajas14 h2{
+    font-family: "Bebas Neue", sans-serif;
+    color: var(--color-Amarillo);
+    font-size: 40px;
+    margin-top: 65px;
+    width: 223px;
+  }
+
+  .Cajas14 p{
+    width: 410px;
+  }
+
+.buttonOcho{
+  border: none;
+    padding: 7px;
+    width: 100px;
+    background-color: var(--color-Negro);
+    color: var(--color-Blanco);
+    margin-top: 30px;
+}
+
+.ContainerOnce{
+  text-align: center;
+  padding: 80px;
+  background-color: var(--color-Amarillo);
+}
+
+.ContainerOnce h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+}
+
+.ContainerOnce p{
+  width: 85%;
+  padding-left: 250px;
+  margin-top: 20px;
+}
+
+.ContainerOnce img{
+  margin-top: 30px;
+  width: 1200px;
+}
+
+.buttonNueve{
+  border: none;
+  padding: 7px;
+  width: 100px;
+  background-color: var(--color-Negro);
+  color: var(--color-Blanco);
+  margin-top: 30px;
+}
+
+.ContainerDoce{
+  padding: 80px;
+  color: var(--color-Amarillo);
+  background-color: var(--color-Negro);
+}
+  
+.Cajas17 {
+  margin-top: 80px;
+}
+
+.Cajas18{
+  margin-top: 80px;
+}
+
+.Cajas20{
+  display: flex;
+  gap: 40px;
+}
+
+.Linea{
+  background-color: var(--color-Blanco);
+  padding: .5px;
+  margin-top: 100px;
+}
+.ContainerTrece{
+  display: flex;
+  margin-top: 40px;
+  gap: 1120px;
+}
+
+.Cajas21 img{
+  filter: brightness(0) saturate(100%) invert(73%) sepia(73%) saturate(1710%) hue-rotate(6deg) brightness(104%) contrast(100%);
+  width: 10px; 
+  background-size: cover;
+  height: 16px;
+}
+
+.Cajas21{
+  display: flex;
+  gap: 25px;
+}
+
+
+@media (max-width:920px){
+  
+  .PaginaPrincipal{
+  width: 1382px;
+}
+
+  .ContainerTres{
+    width: 1382px; 
+  }
+
+  .ContainerCuatro{
+    width: 1382px;
+  }
+
+  .CajasCuatro img{
+    width: 849px;
+  }
+
+  .ContainerCinco{
+    width: 1382px;
+  }
+
+  .ContainerSeis{
+    width: 1382px;
+  }
+
+  .ContainerSiete{
+    width: 1382px;
+  }
+
+  .ContainerOcho{
+    width: 1382px;
+    gap: 193px;
+  }
+
+  .ContainerNueve{
+    width: 1382px;
+  }
+
+  .ContainerNueve img{
+    width: 575px;
+  }
+}
+
