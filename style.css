@@ -559,17 +559,64 @@
   }
 
   .ContainerOcho img{
-    width: 300px;
-    height: 300px;
-    margin-top: 90px; 
+    width: 570px;
+    margin-top: 20px; 
+    padding-left: 230px;
   }
 
   .ContainerOcho{
-    gap: 0px;
-    padding: 102px;
+    gap: 22px; 
+    flex-direction: column-reverse;
+    display: flex;
+    padding: 20px;
+  }
+
+  .Cajas13 p{
+    width: 380px;  
   }
 
   .Cajas13 h2{
     font-size: 50px;
   }
+
+  .Cajas13{
+    padding-left: 195px; 
+    text-align: center;
+  }
+
+  .buttonSietee{
+    padding-right: 205px;
+  }
+
+  .Cajas19 img{
+    width: 70px;
+  }
+
+  .ContainerTrece {
+    display: block;
+  }
+
+  .Cajas21{
+    margin-top: 30px; 
+  }
+
+  .ContainerNueve img{
+    width: 230px;
+    height: 230px;
+    margin-top: 70px;
+  }
+
+  .ContainerNueve p{
+    width: 295px;
+  }
+
+  .ContainerOnce img{
+    width: 590px;
+  }
+
+  .ContainerOnce p{
+    width: 629px;
+    padding-left: 0px;
+  }
+
 }  
